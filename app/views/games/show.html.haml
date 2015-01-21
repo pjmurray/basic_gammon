@@ -1,0 +1,27 @@
+.board
+  .divider
+  .top
+    .quarter.top-left<>
+      - 6.times do
+        .point>
+    .quarter.top-right<>
+      - 6.times do
+        .point>
+  .bottom
+    .quarter.bottom-left<>
+      - 6.times do
+        .point>
+    .quarter.bottom-right<>
+      - 6.times do
+        .point>
+.rhs-action       
+  .left
+    %p.current-user
+  %a.roll_dice{href: '#'} Roll Dice
+  %form.auto_role
+    %input{type: 'checkbox', name: 'auto_role'}
+    %label auto role?
+  %p.dice-1
+  %p.dice-2
+  
+  
