@@ -35,7 +35,7 @@ Rails.application.configure do
   # Version of your assets, change this if you want to expire all your assets.
   config.assets.version = '1.0'
   
-  config.react.variant = :production
+  # config.react.variant = :production
   
 
   # Specifies the header that your server uses for sending files.

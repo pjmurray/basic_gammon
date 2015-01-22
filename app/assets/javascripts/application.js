@@ -10,13 +10,10 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-  
-//= require react
-  
-//= require jquery
-//= require jquery_ujs
-//= require turbolinks
-//= require_tree .
+
+//= require reflux
+//= require_tree ./v2
 
 // Vendor Files
 //= require underscore-min  
+  
